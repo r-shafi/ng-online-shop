@@ -1,0 +1,35 @@
+<div class="container">
+  <ng-container *ngFor="let product of products">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ product.title }}</mat-card-title>
+        <mat-card-subtitle>{{ product.type }}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="product.image" />
+      <mat-card-content>
+        <p>
+          {{ product.description }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <!-- <div class="cart-actions">
+          <button mat-icon-button>-</button>
+          <span class="cart-state">0</span>
+          <button mat-icon-button>+</button>
+        </div> -->
+        <button
+          mat-button
+          (click)="updateCart(product)"
+          [class.added]="currentCarts.includes(product.title)"
+        >
+          {{
+            currentCarts.includes(product.title)
+              ? "Remove From Cart"
+              : "Add to Cart"
+          }}
+        </button>
+        <!-- <button mat-button><mat-icon>favorite</mat-icon> Wishlist</button> -->
+      </mat-card-actions>
+    </mat-card>
+  </ng-container>
+</div>

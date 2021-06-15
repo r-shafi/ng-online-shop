@@ -1,0 +1,41 @@
+<button
+  *ngIf="filteredProducts.length"
+  mat-raised-button
+  color="accent"
+  (click)="order()"
+  class="order"
+>
+  Order Now
+</button>
+<div class="container">
+  <ng-container *ngIf="filteredProducts.length">
+    <ng-container *ngFor="let product of filteredProducts">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>{{ product.title }}</mat-card-title>
+          <mat-card-subtitle>{{
+            updatePrice(product) | currency
+          }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="product.image" />
+        <mat-card-content>
+          <p>
+            {{ product.description }}
+          </p>
+        </mat-card-content>
+        <p>Items in cart: {{ specificItem(product.title)[product.title] }}</p>
+        <mat-card-actions>
+          <button mat-button (click)="updateOrder(product.title, 'add')">
+            <mat-icon>add</mat-icon>
+          </button>
+          <button mat-button (click)="updateOrder(product.title, 'subtract')">
+            <mat-icon>remove</mat-icon>
+          </button>
+          <button mat-button color="warn" (click)="removeItem(product)">
+            Remove Item
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </ng-container>
+  </ng-container>
+</div>

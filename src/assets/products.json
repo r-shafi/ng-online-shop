@@ -1,0 +1,208 @@
+[
+  {
+    "title": "Brown eggs",
+    "type": "dairy",
+    "description": "Raw organic brown eggs in a basket",
+    "image": "https://post.healthline.com/wp-content/uploads/2020/09/health-benefits-of-eggs-732x549-thumbnail.jpg",
+    "height": 600,
+    "width": 400,
+    "price": 28.1,
+    "fixed": 28.1,
+    "rating": 4
+  },
+  {
+    "title": "Sweet fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2013/06/Strawberries-in-a-bowl-e53b458-scaled.jpg?quality=45&resize=768,574",
+    "height": 450,
+    "width": 299,
+    "price": 29.45,
+    "fixed": 29.45,
+    "rating": 4
+  },
+  {
+    "title": "Asparagus",
+    "type": "vegetable",
+    "description": "Asparagus with ham on the wooden table",
+    "image": "https://www.jessicagavin.com/wp-content/uploads/2019/04/how-to-cook-asparagus-2.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 18.95,
+    "fixed": 18.95,
+    "rating": 3
+  },
+  {
+    "title": "Green smoothie",
+    "type": "dairy",
+    "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
+    "image": "https://www.jessicagavin.com/wp-content/uploads/2020/01/green-smoothie-8-1200.jpg",
+    "height": 600,
+    "width": 399,
+    "price": 17.68,
+    "fixed": 17.68,
+    "rating": 4
+  },
+  {
+    "title": "Raw legums",
+    "type": "vegetable",
+    "description": "Raw legums on the wooden table",
+    "image": "https://post.healthline.com/wp-content/uploads/2020/06/green-beans-732x549-thumbnail-732x549.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 17.11,
+    "fixed": 17.11,
+    "rating": 2
+  },
+  {
+    "title": "Baking cake",
+    "type": "dairy",
+    "description": "Baking cake in rural kitchen - dough recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
+    "image": "https://static.toiimg.com/photo/54404412.cms",
+    "height": 450,
+    "width": 675,
+    "price": 11.14,
+    "fixed": 11.14,
+    "rating": 4
+  },
+  {
+    "title": "Pesto with basil",
+    "type": "vegetable",
+    "description": "Italian traditional pesto with basil, chesse and oil",
+    "image": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/266425_2200-732x549.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 18.19,
+    "fixed": 18.19,
+    "rating": 2
+  },
+  {
+    "title": "Hazelnut in black ceramic bowl",
+    "type": "vegetable",
+    "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
+    "image": "https://east-fruit.com/wp-content/uploads/2021/03/fundyk.png",
+    "height": 450,
+    "width": 301,
+    "price": 27.35,
+    "fixed": 27.35,
+    "rating": 0
+  },
+  {
+    "title": "Lemon and salt",
+    "type": "fruit",
+    "description": "Rosemary, lemon and salt on the table",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lemon.jpg/1024px-Lemon.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 15.79,
+    "fixed": 15.79,
+    "rating": 5
+  },
+  {
+    "title": "Homemade bread",
+    "type": "bakery",
+    "description": "Homemade bread",
+    "image": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/03/Bread-Recipe-5-2.jpg",
+    "height": 450,
+    "width": 301,
+    "price": 17.48,
+    "fixed": 17.48,
+    "rating": 3
+  },
+  {
+    "title": "Fresh tomato",
+    "type": "vegetable",
+    "description": "Fresh tomato juice with basil",
+    "image": "https://images.unsplash.com/photo-1561136594-7f68413baa99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9tYXRvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+    "height": 600,
+    "width": 903,
+    "price": 16.3,
+    "fixed": 16.3,
+    "rating": 2
+  },
+  {
+    "title": "Healthy breakfast",
+    "type": "fruit",
+    "description": "Healthy breakfast set. rice cereal or porridge with berries and honey over rustic wood background",
+    "height": 450,
+    "width": 350,
+    "price": 13.02,
+    "fixed": 13.02,
+    "rating": 2
+  },
+  {
+    "title": "Green beans",
+    "type": "vegetable",
+    "description": "Raw organic green beans ready to eat",
+    "image": "https://sc01.alicdn.com/kf/UTB8qq9litoSdeJk43Owq6ya4XXa3/898343083/UTB8qq9litoSdeJk43Owq6ya4XXa3.jpg",
+    "height": 450,
+    "width": 300,
+    "price": 28.79,
+    "fixed": 28.79,
+    "rating": 1
+  },
+  {
+    "title": "Baked stuffed portabello mushrooms",
+    "type": "bakery",
+    "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
+    "image": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/278858_2200-732x549.jpg",
+    "height": 600,
+    "width": 400,
+    "price": 20.31,
+    "fixed": 20.31,
+    "rating": 1
+  },
+  {
+    "title": "Strawberry jelly",
+    "type": "fruit",
+    "description": "Homemade organic strawberry jelly in a jar",
+    "image": "https://www.chatelaine.com/wp-content/uploads/2012/06/Spicy-strawberry-jelly-0-l.jpg",
+    "height": 400,
+    "width": 600,
+    "price": 14.18,
+    "fixed": 14.18,
+    "rating": 1
+  },
+  {
+    "title": "Pears",
+    "type": "fruit",
+    "description": "Fresh pears juice on the wooden table",
+    "image": "https://healthcare.utah.edu/huntsmancancerinstitute/news/images/2017/pears1.jpg",
+    "height": 600,
+    "width": 398,
+    "price": 19.49,
+    "fixed": 19.49,
+    "rating": 4
+  },
+  {
+    "title": "Caprese salad",
+    "type": "vegetable",
+    "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
+    "height": 400,
+    "width": 600,
+    "price": 16.76,
+    "fixed": 16.76,
+    "rating": 5
+  },
+  {
+    "title": "Oranges",
+    "type": "fruit",
+    "description": "Orange popsicle ice cream bars made from fresh oranges. a refreshing summer treat.",
+    "image": "https://www.mygarden.com/sites/default/files/styles/amp_metadata_anchor_navigation/public/orange-tree-citrus-x-sinesis-157524538-istock.jpg?h=c3bf4dd4&itok=v2bo16PY",
+    "height": 450,
+    "width": 274,
+    "price": 21.48,
+    "fixed": 21.48,
+    "rating": 4
+  },
+  {
+    "title": "Honey",
+    "type": "bakery",
+    "description": "Honey and honeycell on the table",
+    "height": 450,
+    "width": 299,
+    "price": 17.01,
+    "fixed": 17.01,
+    "rating": 2
+  }
+]

@@ -1,0 +1,54 @@
+.container {
+  .hero {
+    height: 60vh;
+    background-image: url(https://scopeblog.stanford.edu/wp-content/uploads/2019/02/vegetables-1085063-1152x578.jpg);
+    background-position: center;
+    .overlay {
+      background: rgba($color: #000000, $alpha: 0.5);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.5);
+      text-align: center;
+      span {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+      }
+      h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+      }
+    }
+  }
+  .dumb {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 5rem;
+    line-height: 5rem;
+    background-image: linear-gradient(
+      90deg,
+      #0b0072,
+      #ee8844,
+      #39a78e,
+      #16b8f3,
+      #6a5287,
+      #fef200
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 500%;
+    animation: move 2s infinite alternate;
+  }
+}
+
+@keyframes move {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}

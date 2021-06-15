@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Order Details</h1>
+<div mat-dialog-content>
+  You have ordered:
+  <ul>
+    <li *ngFor="let item of data.items">
+      {{ item }}
+    </li>
+  </ul>
+  <p>Total Cost: {{ data.total | currency }}</p>
+  <button mat-button mat-dialog-close>Close</button>
+</div>

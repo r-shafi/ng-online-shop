@@ -1,0 +1,14 @@
+.order {
+  margin-bottom: 2rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  mat-card {
+    img {
+      max-height: 200px;
+      object-fit: cover;
+    }
+  }
+}

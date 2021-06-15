@@ -1,0 +1,48 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    attr.role="navigation"
+    mode="over"
+    opened="false"
+  >
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <button mat-button routerLink="products">Products</button>
+      <button mat-button routerLink="#" disabled>Category</button>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async"
+      >
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <button mat-button routerLink="/" class="store-title">
+        <mat-icon>store</mat-icon><span>Shafi Online Shop</span>
+      </button>
+      <nav *ngIf="!(isHandset$ | async)">
+        <button mat-button routerLink="products">Products</button>
+        <button mat-button routerLink="#">Category</button>
+      </nav>
+      <span class="space"></span>
+      <mat-icon
+        routerLink="cart"
+        [matBadge]="cartLen.toString()"
+        matBadgeColor="warn"
+        >shopping_cart</mat-icon
+      >
+      <button mat-button routerLink="#" *ngIf="!(isHandset$ | async)" disabled>
+        Admin
+      </button>
+    </mat-toolbar>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
